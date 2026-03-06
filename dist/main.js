@@ -1,0 +1,14 @@
+import { Student } from "./Student.js";
+import { Faculty } from "./Faculty.js";
+import { Staff } from "./Staff.js";
+const student = new Student("Anu", "Chennai");
+student.study();
+student.displayAddress();
+console.log("----------------");
+const faculty = new Faculty("Dr. Kumar", "Bangalore");
+faculty.teach();
+faculty.displayAddress();
+console.log("----------------");
+const staff = new Staff("Ravi", "Coimbatore");
+staff.work();
+staff.displayAddress();
